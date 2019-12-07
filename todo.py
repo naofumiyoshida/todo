@@ -21,7 +21,7 @@ print('''
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
-<title>python message board</title>
+<title>python todo</title>
 
 <style type="text/css">
 body {
