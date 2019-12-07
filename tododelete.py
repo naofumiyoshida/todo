@@ -21,7 +21,7 @@ print('''
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
-<meta http-equiv="refresh" content="5;URL='http://gmsresearch01.komazawa-u.ac.jp/~naofumi/todo.py'" />
+<meta http-equiv="refresh" content="5;URL='todo.py'" />
 <title>python message board</title>
 
 <style type="text/css">
