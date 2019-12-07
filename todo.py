@@ -51,7 +51,8 @@ con = sqlite3.connect("todo.db")
 try:
   # Database Creation
   con.executescript("""create table todo(item text, id INTEGER PRIMARY KEY AUTOINCREMENT);""")
-except:
+except sqlite3.Error as e:
+  #print('sqlite3.Error occurred:', e.args[0])
   print
 finally:
   # If there is input, insert data to database
@@ -83,8 +84,9 @@ finally:
       print('<td><a href="tododelete.py?id=',each['id'] , '">delete</a></td>',sep='')
       print('</tr>')
     print("</table>")
+  except sqlite3.Error as e:
+    print('sqlite3.Error occurred:', e.args[0])
   finally:
     cur.close()
-
   con.close()
   print("</body></html>")
