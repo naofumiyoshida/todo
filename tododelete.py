@@ -22,7 +22,7 @@ print('''
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
 <meta http-equiv="refresh" content="5;URL='todo.py'" />
-<title>python message board</title>
+<title>python todo</title>
 
 <style type="text/css">
 body {
